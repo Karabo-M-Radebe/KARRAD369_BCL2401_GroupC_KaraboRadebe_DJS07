@@ -1,5 +1,6 @@
 import React from "react";
-import Header from "./Header";
+import Header from "../components/Header";
+import InputFields from "../components/InputFields";
 
 export default function App() {
 
@@ -7,6 +8,7 @@ export default function App() {
     <>
     <div>
       <Header />
+      <InputFields />
     </div>
     
     </>
