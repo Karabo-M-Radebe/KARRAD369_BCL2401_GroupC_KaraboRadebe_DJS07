@@ -1,5 +1,4 @@
 import React from "react";
-import memesData from "./memesData";
 
 export default function InputFields () {
 
@@ -19,7 +18,7 @@ export default function InputFields () {
     }, [])
     
     const getMemeImage = () => {
-        const randomNumber = Math.floor(Math.random() * memesArray.length)
+        const randomNumber = Math.floor(Math.random() * allMemes.length)
         const url = allMemes[randomNumber].url
         setMeme(prevMeme => ({
             ...prevMeme, 
